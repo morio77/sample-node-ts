@@ -89,7 +89,29 @@ npx tsc
 
 →　`dist`フォルダにjsファイルが出力される
 
+## 開発効率を上げる
+
+T.B.D.
+
+## git管理するなら
+
+### giboを使って`.gitignore`を作成
+
+```bash
+brew install gibo
+gibo dump macos linux windows node > .gitignore
+```
+
+### `.gitigonre`で`dist`フォルダ配下を管理から外す
+
+`.gitignore`に以下を追加
+
+```diff
++ dist/
+```
+
 ## 参考
 
-* https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript-ja
-* https://qiita.com/notakaos/items/3bbd2293e2ff286d9f49
+* [Typescriptでノードプロジェクトをセットアップする方法](https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript-ja)
+* [TypeScript + Node.js プロジェクトのはじめかた2020](https://qiita.com/notakaos/items/3bbd2293e2ff286d9f49)
+* [gibo](https://github.com/simonwhitaker/gibo)
