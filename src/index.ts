@@ -1,5 +1,4 @@
 function hello(name: string): string {
     return `Hello, ${name}!`;
-  }
-  
-  console.log(hello("morio77"));
+}
+console.log(hello("morio77"));
