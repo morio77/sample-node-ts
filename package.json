@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "github:types/express",
+    "@types/node": "^16.10.3",
     "express": "^4.17.1",
     "tslint": "^6.1.3",
     "typescript": "^4.4.3"
