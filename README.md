@@ -26,7 +26,7 @@ nodebrew 1.1.0
 
 ### node
 
-＊＊バージョンは各Prjに依る＊＊
+**バージョンは各Prjに依る**
 
 ```bash
 nodebrew install v14.18.0
@@ -53,7 +53,7 @@ npm init -y
 
 ### TypeScriptパッケージを追加
 
-＊＊バージョンは各Prjに依る＊＊
+**バージョンは各Prjに依る**
 
 ```bash
 npm install typescript @types/node tslint express　@types/express
