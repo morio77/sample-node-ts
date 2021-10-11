@@ -58,7 +58,7 @@ npm install typescript @types/node tslint express　@types/express
 ### `tsconfig.json`を作成
 
 ```bash
-npx tsc -init
+npx tsc --init
 ```
 
 ### `tsconfig.json`の`outDir`を記載
@@ -85,3 +85,7 @@ npx tsc
 
 →　`dist`フォルダにjsファイルが出力される
 
+## 参考
+
+* https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript-ja
+* https://qiita.com/notakaos/items/3bbd2293e2ff286d9f49
