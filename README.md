@@ -65,7 +65,7 @@ npm install typescript @types/node tslint express　@types/express
 npx tsc --init
 ```
 
-### `tsconfig.json`の`outDir`を記載
+### `tsconfig.json`に`outDir`を記載
 
 ```diff
 - // "outDir": "./",
