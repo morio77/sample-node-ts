@@ -91,7 +91,15 @@ npx tsc
 
 ## 開発効率を上げる
 
-T.B.D.
+### tsファイルをそのままnodeアプリとして実行する
+
+```bash
+npm install ts-node
+```
+
+```bash
+npx ts-node index.ts
+```
 
 ## git管理するなら
 
