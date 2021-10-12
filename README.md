@@ -98,7 +98,7 @@ npm install ts-node
 ```
 
 ```bash
-npx ts-node index.ts
+npx ts-node ./src/index.ts
 ```
 
 ## git管理するなら
