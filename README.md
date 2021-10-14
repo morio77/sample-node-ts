@@ -56,7 +56,7 @@ npm init -y
 **バージョンは各Prjに依る**
 
 ```bash
-npm install typescript @types/node tslint express　@types/express
+npm install typescript @types/node eslint express @types/express
 ```
 
 ### `tsconfig.json`を作成
